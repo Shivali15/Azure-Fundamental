@@ -1,0 +1,243 @@
+The Azure Fundamentals is the entry-level cloud certification for microsoft Azure
+AZ-900
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+The AZ-900 is about knowing the Azure core services
+yhe fundamentals of cloud computing and a having a bit of hands-on experience working with th Azure Portal.
+
+
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+ cloud computing:
+practice of using a netwrok of remote servers hosted on the internet to store,manage, and process data rather than a local server or a personal computer.
+
+cloud hosting - multiple physical machines that acts as one system. The system is abstracted into ultiple cloud services.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+4 types-
+compute
+storage
+networking
+databases
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ wt is microsoft and azure?
+microsoft calls their cloud provider service as microsoft azure.
+
+azure - Cloud service provider (CSP)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+3)Saas (software as a service) eg. gmail
+Paas (Platform as a Service) eg. heroku
+Iaas (Infrastructure as a Service) eg. microsoft azure, oracle cloud, aws.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Cloud deployment model
+Public cloud (cloud-native)
+Private cloud (on-premise) verything built in companys datacentre
+HYbrid (both on-premise and CSP)
+
+Cross-cloud (using multiple CSP) 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+We can save 75% by using azure intead on on-premise.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ Cloud architecture terminologies
+
+1.Availability - ability to ensure a service remians available Highly Available(HA), ensuring there is no single point of failure.
+
+2.Scalability -  ability to grow rapidly 
+vertical Scaling, HIgh scalability (increase your capacity based on inc demand of traffic)
+
+3.Elasticity - ability to shrink and grow to meet the demand. (ability of inc or dec your capacity based on current demand of traffic )
+
+4.Fault Tolerance - ability to prevent a failure
+
+5. Disaster Recovery -  ability to recover from a failure, Highly Durable(DR)
+
+evolution of computing
+dedicated ->virtual machines -> containers ->functions
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ global infrastructure - paired regions
+
+->each region is paired with another region 300 miles away.
+->one region is updated at a time to ensure no outages.
+
+Availability Zone(AZ) - a physical location made up of one or more datacenter.
+ datacenter -  secured building that contains hundreds of thousands of computers.
+
+ fault and update domain
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ storage service
+Aure blob storage
+azure disk storage(ssd /hdd)
+azure file storage
+azure queue storage
+azure table storage
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+db services
+azure cosmos db
+azure sql db
+azure db for mysql/psql/mariaDB
+azure db migration service
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+azure integration services
+azure api apps
+azure service bus
+azure logic apps
+azure api management
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+developer and mobile terminologies
+real time messaging
+azure app service(deploying web apps)
+visual studio (code editor)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+azure devops service
+azure boards(like github)
+azure repos
+azure pipelines
+etc 
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+azure quickstart template
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+azure virtual network and subnets
+virtual network (vNet) is a logically isolated section of the azure network where you can launch your azure resources. you can choose a range of IPs using CIDR range
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ cloud native networking services
+azure dns
+azure vNet
+azure application gateway
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ enterprise /hybrid netwroking services
+
+azure express route (connection between on-premise to azure cloud)
+virtual wAN
+azure connection (VPN connecton)
+Virtual netwrok gateway
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ azure traffic manager
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+AZURE dns(you can create DNS zones and manage your DNS records)
+azure load balancer
+(evenly distributes incoming network traffic across a group of backend resources)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ scale sets (group together identical virtual machines)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+Iot services
+internet of things
+- a network of internet connected objects (usually hardware) able to collect and exchange data.
+-smart watches
+-smart fridges
+-drones
+-security cameras
+
+Iot central (connects Iot device to the cloud)
+Iot hub
+Iot edge
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+big data and analytics services
+azure synapse analytics( sql data ware house)
+HDinsight (open source analytics software)->hadoop,spark
+azure databricks
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+AI/ML services
+
+AI - machines that performs human behaviours
+ML - MACHINE GETS BETTER AT A TASK WITHOUT EXPlict programming
+DL -  machines that hae an artificial neural netwrok inspired by the humna brain to solve complex problems
+
+azure machine learning service
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ai services
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+serverless services
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+azure portal - web based unifies console that provides alternative to command line tools.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+azure poweshell
+install azure in windows powershell
+
+azure cloud shell
+
+azure CLI(command line interface)
+eg :  az create ,update.delete. view etc
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+creating azure functions
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+azure security (CJIS/CSA/GDPR/etc)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+azure active directory(cloud based identity and acces management service)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ multi-factor authentication (MFA)
+-> after you fill in the username/email and password, you have to use a second device such as phone to confirm that its you logging in.
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ azure security center
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+key vault (helps you safeguard cryptographic keys and ther screts using cloud apps and services)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+azure DDos protection
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+azure firewall
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+ azure information protection (protects sensitive information such as emails documents, restricted access etc)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+application gateway
+web-traffic load balancer (application firewall can be attached for additional protection)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+advanced threat protection
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+microsoft security development cycle(SDL)
+INDUSTRY-LEADING SOFTWARE SECURITY ASSURANCE process
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+AZURE POLICIES
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+role based access controls
+role definations is a collection of permissions that can be performed such as read,write,delete, etc
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+lock resources (you can lock a subscription to prevent other users from accidently deleteing or modifyimg critical resources)
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+management groups
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+service credits (compensation for under-performing) azure product or service)
+
+-----------------------------------------------------------------------------------------------------------------------------------------------------------------------
+
+azure marketplace - wordpress etc
